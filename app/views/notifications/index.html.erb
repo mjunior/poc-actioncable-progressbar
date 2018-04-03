@@ -1,0 +1,24 @@
+<div class="container">
+  <p id="notice"><%= notice %></p>
+
+  <h1>Acompanhar processamento</h1>
+  
+  <div class="form-group">
+    <label for="batch_name">Informe o nome do lote</label>
+    <input type="text" class="form-control" id="batch_name" placeholder="lote_01">
+  </div>
+
+  <button type="submit" class="btn btn-primary connect">Visualizar lote</button>
+
+<%# 
+  <button class="connect" data-account-id="1">Conectar como sala 1</button>
+  <button class="connect" data-account-id="2">Conectar como sala 2</button>
+  <button class="connect" data-account-id="3">Conectar como sala 3</button> %>
+
+  <hr />
+  <br />
+  <div class="col-md-12">
+    <div id="status"></div>
+    <div class="progress"></div>
+  </div>
+</div>
